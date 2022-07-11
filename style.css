@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*Navbar*/
+
+.navbar-custom {
+  height: 75px;
+}
+
+.bb-dark {
+  border-bottom: 1px solid #414141;
+}
+
+.logo {
+  width: 180px;
+  margin-left: 140px;
+}
+
+.logo2{
+    width: 40%;
+}
+
+.bg-nav {
+  background-color: rgb(255, 192, 23);
+}
+
+.btn-nav {
+  margin-right: 160px;
+  color: #fff;
+  text-align: center;
+  background-color: #191919;
+  border: 1px solid #292929;
+  border-radius: 1.8rem;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 7px 16px 9px 16px;
+  font-family: "Roboto Slab", serif;
+  word-spacing: 0px;
+}
+
+.btn-nav:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.nav-link {
+  color: #191919 !important;
+  font-size: 14px;
+  line-height: 20px;
+  word-spacing: 0px;
+  margin-right: 10px;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+}
+
+/*End of Navbar*/
+
+/*Hero Section*/
+
+.hero{
+    height: 70vh;
+}
+
+.hero .container h1 {
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 106px;
+  letter-spacing: -5.3px;
+  line-height: 95px;
+  word-spacing: 0px;
+  font-family: "PT Serif", serif;
+  color: #000;
+}
+
+.hero .container h3 {
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 24px;
+  word-spacing: 0px;
+  margin-bottom: 60px;
+  font-family: "PT Serif", serif;
+  color: #080808;
+}
+
+.btn-hero {
+  margin-left: 40px !important;
+  margin-top: 40px !important;
+  color: #fff;
+  text-align: center;
+  background-color: #191919;
+  border: 1px solid #292929;
+  border-radius: 1.8rem;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  padding: 9px 40px 9px 40px;
+  font-family: 'PT Serif', serif;
+  word-spacing: 0px;
+}
+
+.btn-hero:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+/*End of Hero Section*/
+
+/*trending*/
+.small{
+    margin-left: 10px;
+}
+
+.small-text{
+    font-size: 12px;
+    font-family: "Roboto Slab", serif;
+    color: #424242;
+}
+
+.number{
+    font-size: 25px;
+    font-family: "Roboto Slab", serif;
+    color: #424242;
+}
+
+.text-black-50{
+    color: #42424247 !important;
+}
+
+.trend-left{
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+/*end of trending*/
+
+/*Discover*/
+
+.discover{
+    margin-right: 40px;
+    margin-left: 180px;
+}
+
+.aside-buttons > li{
+    margin-bottom: 10px;
+}
+
+.aside-buttons li button{
+    font-size: 12px;
+    padding: 5px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.aside-buttons{
+    padding-right: 80px;
+}
+
+
+.aside-links{
+    text-decoration: none;
+    color: #595959;
+    margin-right: 7px;
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+}
+
+.aside-sticky{
+    position:sticky;
+    top: 75px;
+}
+
+.copyright{
+    font-size: 14px;
+    font-family: "Roboto Slab", serif;
+    margin-top: 20px;
+    color: rgb(22, 136, 83);
+}
+
+
+.github{
+    color: #000;
+    font-size: 30px;
+    margin-left: 5px;
+}
